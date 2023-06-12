@@ -1,0 +1,30 @@
+{
+  "name": "stenciljs-web-types-generator",
+  "version": "1.0.1",
+  "description": "Generator of Web-Types for StencilJS web components",
+  "main": "web-types-generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nielsboogaard/stenciljs-web-types-generator.git"
+  },
+  "keywords": [
+    "stenciljs",
+    "web-types",
+    "generator"
+  ],
+  "author": "Niels Boogaard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nielsboogaard/stenciljs-web-types-generator/issues"
+  },
+  "homepage": "https://github.com/nielsboogaard/stenciljs-web-types-generator#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.0"
+  },
+  "dependencies": {
+    "@stencil/core": "^3.3.1"
+  }
+}

@@ -10,7 +10,7 @@ npm install stenciljs-web-types-generator
 ## Usage
 1. Add the following to your `stencil.config.ts` to generate the Web-Types during a build:
 ```typescript
-import {WebTypesGenerator} from "stenciljs-web-types-generator";
+import {WebTypesGenerator} from "stenciljs-web-types-generator/web-types-generator";
 import { Config } from '@stencil/core';
 
 export const config: Config = {
