@@ -13,7 +13,11 @@
   "keywords": [
     "stenciljs",
     "web-types",
-    "generator"
+    "generator",
+    "IntelliJ",
+    "IDE",
+    "webcomponents",
+    "web-components"
   ],
   "author": "Niels Boogaard",
   "license": "ISC",
