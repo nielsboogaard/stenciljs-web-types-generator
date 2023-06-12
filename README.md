@@ -20,6 +20,7 @@ export const config: Config = {
       generator: new WebTypesGenerator({
         name: "<your-component-library-name>",
         version: "<your-component-library-version>",
+        defaultIconPath: "<path-to-icon-of-your-library>",
         outputPath: "dist/types/web-types.json"
       }).generateWebTypesJson,
     }

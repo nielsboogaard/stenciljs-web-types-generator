@@ -1,6 +1,6 @@
 {
   "name": "stenciljs-web-types-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generator of Web-Types for StencilJS web components",
   "main": "web-types-generator.ts",
   "scripts": {

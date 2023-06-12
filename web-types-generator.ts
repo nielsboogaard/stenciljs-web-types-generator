@@ -4,6 +4,7 @@ import fs from "fs";
 export interface WebTypesGeneratorConfig {
     name: string;
     version: string;
+    defaultIconPath: string;
     outputPath: string;
 }
 
@@ -15,6 +16,7 @@ export class WebTypesGenerator {
             "$schema": "https://json.schemastore.org/web-types",
             "name": this.config.name,
             "version": this.config.version,
+            "default-icon": this.config.defaultIconPath,
             "description-markup": "markdown",
             "contributions": {
                 "html": {
